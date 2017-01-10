@@ -17,11 +17,11 @@ class BasicTest extends TestCase
         $this->assertTrue(true);
     }
 
-    public function testClickNextForBeta()
+    /*public function testClickNextForBeta()
     {
         $this->visit('/')
              ->click('Shop')
              ->seePageIs('/shop')
              ->see('Articles');
-    }
+    }*/
 }
