@@ -17,6 +17,7 @@ class BasicTest extends TestCase
         $this->assertTrue(true);
     }
 
+    // Pour que le test la fonctionne il faut ajouter les fichiers migrations de la BDD (car la la BDD est vide)
     /*public function testClickNextForBeta()
     {
         $this->visit('/')

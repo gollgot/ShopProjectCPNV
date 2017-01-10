@@ -4,8 +4,7 @@ php:
   - 5.6
 
 before_script:
+  - cp .env.travis .env
   - composer self-update
   - composer install --no-interaction
-
-env:
-  - APP_KEY='base64:BIhG4QeNiijhPOV3I8cfvDMug/HvfWJZRujRGJxlCCU=' DB_CONNECTION=sqlite DB_DATABASE=':memory:'
+  - php artisan key:generate
