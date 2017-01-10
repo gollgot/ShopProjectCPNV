@@ -6,3 +6,6 @@ php:
 before_script:
   - composer self-update
   - composer install --no-interaction
+
+env:
+  - APP_KEY=base64:BIhG4QeNiijhPOV3I8cfvDMug/HvfWJZRujRGJxlCCU=
