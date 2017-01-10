@@ -1,0 +1,90 @@
+#page {
+	margin: auto;
+	width:100%;
+	max-width: 990px;
+}
+
+#content {
+	border: 1px solid #ddd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 4px 4px;
+	min-height:100px;
+	margin:20px 0px;
+}
+
+header {
+	padding: 10px 4px 0 4px;
+	position:relative;
+}
+
+header nav{
+	height: 30px;
+	line-height:30px;
+	border: 1px solid #ddd;
+	background-color: #ddd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 4px;
+	margin-top:1em;
+}
+header nav a{
+	margin-right: 10px;
+}
+
+footer {
+	height: 30px;
+	line-height:30px;
+	border: 1px solid #ddd;
+	background-color: #ddd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	font-size: 0.9em;
+	padding: 4px;
+	text-align:center;
+}
+
+header a, footer a{
+	color:#333;
+}
+
+/* Table liste */
+#list form{
+	text-align:center;
+}
+
+table{
+	border-top: 1px solid #000;
+	border-right: 1px solid black;
+	border-spacing: 0px;
+	margin:0px auto;
+}
+
+th, td{
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+    text-align: center;
+}
+th.title{
+	width:500px;
+}
+table img {
+	width:100px;
+}
+
+/* Vue détaillée d'un article */
+#view{
+	text-align:center;
+}
+#view img{
+	max-width:100%;
+}
+#view p{
+	text-align:justify;
+}
+#view .prix{
+	font-weight:bold;
+}
