@@ -9,3 +9,5 @@ before_script:
 
 env:
   - APP_KEY=base64:BIhG4QeNiijhPOV3I8cfvDMug/HvfWJZRujRGJxlCCU=
+  - DB_CONNECTION=sqlite
+  - DB_DATABASE=:memory:
